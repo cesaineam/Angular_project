@@ -5,6 +5,9 @@
       <button class="btn btn-primary" [disabled] ='deshabilitar' (click)="activarPersona()">Agregar persona</button>
         <p>{{mensaje}}</p>
       <app-persona></app-persona>
+      <label >Titulo persona</label>
+      <input type="text" class="form-control" [(ngModel)]='titulo'>
+      {{titulo}}
       
     </div>
   </div>
